@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="ie"/>
+  <test name="TestFirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day09.Test35">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="testa"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- day09.Test35 -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+  <test name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day09.Test35">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="testa"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- day09.Test35 -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestIE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="day09.Test35">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="testa"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- day09.Test35 -->
+    </classes>
+  </test> <!-- TestIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

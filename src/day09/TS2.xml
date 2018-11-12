@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="day02.TestNgExcelPoi8"/>
+      <class name="day02.TestNgJxlExcel7"/>
+    </classes>
+  </test> 
+</suite> 
