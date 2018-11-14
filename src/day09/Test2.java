@@ -45,6 +45,7 @@ public class Test2 {
     System.out.println("实际"+gn);
     //休眠3s钟
     //Thread.sleep(3000);  
+  //Thread.sleep(3000);
   }
 
   @After

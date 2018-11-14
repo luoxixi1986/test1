@@ -54,7 +54,10 @@ public class Test3 {
 		driver.findElement(By.xpath("//a[text()='删除']")).click();
 //		在提示上点击”确定“
 		closeAlertAndGetItsText();
-		Thread.sleep(3000);
+		Thread.sleep(6000);
+		Thread.sleep(6000);
+		Thread.sleep(6000);
+		Thread.sleep(6000);
 	}
 	  
 	//有返回值得，如果是void是无返回值得
